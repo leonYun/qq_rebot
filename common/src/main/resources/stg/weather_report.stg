@@ -1,0 +1,7 @@
+亲爱的<nickname>，<timeQuantum>好
+当前时间为<currentTime>
+现在<address>的天气是<weather> <icon>
+温度为<temp>℃  体感温度是<feelsLike>℃
+湿度为<humidity>%
+吹的是<windDir>， 风力等级为<windScale>
+<dailyIndicesStr>
