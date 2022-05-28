@@ -6,6 +6,9 @@ target/
 provider/src/main/resources/application-prod.yml
 logs/
 !**/src/test/
+.mvn
+mvnw.cmd
+
 ### STS ###
 .apt_generated
 .classpath
