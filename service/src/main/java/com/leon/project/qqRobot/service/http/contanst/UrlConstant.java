@@ -13,9 +13,9 @@ public interface UrlConstant {
 
     interface HEFENG_WEATHER {
         String APP_ID = "f6733993fa71455e98c8e79d4c7b3e83";
-        String CURRENT_WEATHER = "https://devapi.qweather.com/v7/weather/now?" + "key=" + APP_ID;
-        String LIFE_INDICES = "https://devapi.qweather.com/v7/indices/1d?type=0&" + "key=" + APP_ID ;
-        String WEATHER_WARING = "https://devapi.qweather.com/v7/warning/now?" + "key=" + APP_ID;
+        String CURRENT_WEATHER = "https://devapi.qweather.com/v7/weather/now?key=" + APP_ID;
+        String LIFE_INDICES = "https://devapi.qweather.com/v7/indices/1d?type=0&key=" + APP_ID ;
+        String WEATHER_WARING = "https://devapi.qweather.com/v7/warning/now?key=" + APP_ID;
     }
 
 }

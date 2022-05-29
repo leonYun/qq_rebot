@@ -39,7 +39,8 @@ public class PrivateMessageHandler implements EventHandler {
                 qqOperatorBiz.sendCurrentWeatherMsg(byQq);
                 return;
             }
-        } if (StringUtils.equals(qqEventMsg.getRawMessage(), "预警")) {
+        }
+        if (StringUtils.equals(qqEventMsg.getRawMessage(), "预警")) {
             QQUserConfig byQq = qqUserConfigRepository.findByQq(qqEventMsg.getUserId());
             if (Objects.nonNull(byQq)) {
                 qqOperatorBiz.sendWeatherWarning(byQq);
