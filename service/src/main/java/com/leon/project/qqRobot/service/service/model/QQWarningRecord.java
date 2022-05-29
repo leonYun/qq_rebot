@@ -18,7 +18,7 @@ import javax.persistence.*;
 )
 public class QQWarningRecord {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String warningId;
