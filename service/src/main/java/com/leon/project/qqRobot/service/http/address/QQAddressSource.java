@@ -1,4 +1,4 @@
-package com.leon.project.qqRobot.service.http;
+package com.leon.project.qqRobot.service.http.address;
 
 import com.dtflys.forest.callback.AddressSource;
 import com.dtflys.forest.http.ForestAddress;

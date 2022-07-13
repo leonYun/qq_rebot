@@ -2,7 +2,7 @@ package com.leon.project.qqRobot.service.http.client;
 
 import com.dtflys.forest.annotation.*;
 import com.leon.project.qqRobot.service.http.model.req.SendMsg;
-import com.leon.project.qqRobot.service.http.QQAddressSource;
+import com.leon.project.qqRobot.service.http.address.QQAddressSource;
 import org.springframework.stereotype.Service;
 
 import java.util.Map;
