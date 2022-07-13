@@ -53,12 +53,12 @@ public class PrivateMessageHandler implements EventHandler {
             }
         }
         if (StringUtils.equals(qqEventMsg.getRawMessage(), "运行")) {
-            qqOperatorService.sendPrivateMsg(JSONUtil.toJsonStr(runHttpClient.toRun()), qqEventMsg.getUserId());
+            qqOperatorService.sendPrivateMsg(runHttpClient.toRun(), qqEventMsg.getUserId());
             return;
         }
 
         if (StringUtils.equals(qqEventMsg.getRawMessage(), "统计")) {
-            qqOperatorService.sendPrivateMsg(JSONUtil.toJsonStr(runHttpClient.count()), qqEventMsg.getUserId());
+            qqOperatorService.sendPrivateMsg(runHttpClient.count(), qqEventMsg.getUserId());
             return;
         }
 
